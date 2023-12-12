@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mental Health Survey</title>
+</head>
+<body>
+    <h1>Mental Health Survey</h1>
+    <form action="submit.php" method="post">
+        <label for="mental_illness">I identify as having a mental illness:</label>
+        <select id="mental_illness" name="mental_illness">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select><br><br>
+
+        <label for="computer">I have my own computer separate from a smartphone:</label>
+        <select id="computer" name="computer">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select><br><br>
+
+        <label for="hospitalized">I have been hospitalized before for my mental illness:</label>
+        <select id="hospitalized" name="hospitalized">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select><br><br>
+
+        <label for="hospitalized_days">How many days were you hospitalized for your mental illness:</label>
+        <input type="text" id="hospitalized_days" name="hospitalized_days"><br><br>
+
+        <label for="part_time_employment">I am currently employed at least part-time:</label>
+        <select id="part_time_employment" name="part_time_employment">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select><br><br>
+
+        <!-- Add more questions here following the same format -->
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
